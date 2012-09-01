@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:text="THis is a basic android application which lets you connect two emulators and let you send messages to each other
+		.i have implemented the history to show all the messages and i have hardcoded the ip address and the port numbers but it can be
+		done through a input given by the user.this application uses the telephony manager to detect which emulator is the client or the server basically it differentiates between the two"
+	/>         
+    
+    
+    </LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="This application uses two threads i.e one server thread and one client thread .it uses the idea that when the app starts on both the emulators on both the instances than on both the emulators the server thread starts and thus making that particular emulator the server
+        the client thread is started and the client will be in existence when in either of the windows the send button is clicked when this button is clicked that emulator becomes the client and the other one the server.the server port is 8888 while the emulator port 1 is 5050 while the other emulator cleint port is 6060
+       	The redirection is done on the cmd screen with the telnet opened for the first emulator and write redir add tcp:6060:8888 basically redirecting it to the second emulator and server port." />
+
+</LinearLayout>
